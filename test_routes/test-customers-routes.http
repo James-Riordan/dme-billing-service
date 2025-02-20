@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/customers
+Content-Type: application/json
+
+{
+  "external_customer_id": "cust_123",
+  "email": "customer@example.com",
+  "name": "John Doe",
+  "country": "US"
+}
